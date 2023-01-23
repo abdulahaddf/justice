@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Poppins&display=swap');
 body{
-    font-family: 'EB Garamond' , Poppins;
-font-family: ;
+    font-family: 'EB Garamond';
+    font-family:' Poppins' ;
 }
 .bg-custom-primary{
     background: #B68C5A;
+}
+.banner{
+    
+    background-image: url('../images/banner.png'), linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
+    background-size:cover;
+    height:70vh;
+    background-position:center ;
+}
+.card{
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
 }
